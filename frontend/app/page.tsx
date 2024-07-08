@@ -1,8 +1,6 @@
 import Image from "next/image";
-import Home from "./index/page";
+import Home from "./home/page";
 
 export default function Page() {
-  return (
-    <Home />
-  );
+  return <Home />;
 }
